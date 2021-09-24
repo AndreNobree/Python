@@ -10,7 +10,7 @@ inicio = str(input("Deseja Iniciar o sistema?(Sim/Não) ")).upper()
 if inicio == 'SIM':
 
   def senior():
-    con = mysql.connector.connect(host='localhost',database='cadastro',user='root',password='$apat0Branc0')
+    con = mysql.connector.connect(host='localhost',database='cadastro',user='root',password='')
 
     cursor = con.cursor()
 
