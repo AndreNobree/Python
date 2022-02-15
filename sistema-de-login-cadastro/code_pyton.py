@@ -1,4 +1,3 @@
-#Para a execução correta do código, necessário a instalação e execução do MySQL workbench
 import mysql.connector
 import time
 from colorama import init, Fore, Back, Style # colorir parte do codigo
